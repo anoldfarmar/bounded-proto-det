@@ -1,0 +1,112 @@
+{
+  "experiment_id": "insplad_fullview_B_A5000",
+  "checkpoint_step": 5000,
+  "smoke": false,
+  "categories": [
+    "glass-insulator",
+    "lightning-rod-suspension",
+    "polymer-insulator-upper-shackle",
+    "vari-grip",
+    "yoke-suspension"
+  ],
+  "test_image_count": 2656,
+  "training_view": {
+    "mode": "whole_file_resize_square",
+    "resize": [
+      392,
+      392
+    ],
+    "crop": null,
+    "padding": null,
+    "retained_field_of_view_fraction": 1.0,
+    "aspect_ratio_preserved": false,
+    "tensor_before_normalize": true,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "evaluation_view": {
+    "mode": "whole_file_resize_square",
+    "resize": [
+      392,
+      392
+    ],
+    "crop": null,
+    "padding": null,
+    "retained_field_of_view_fraction": 1.0,
+    "aspect_ratio_preserved": false,
+    "tensor_before_normalize": true,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "ncut_training_steps": 0,
+  "variants": {
+    "full_top1": {
+      "mean": {
+        "I-AUROC": 0.8532808054567191,
+        "I-AP": 0.6020829654594024,
+        "I-F1": 0.6075025628310472,
+        "FPR@95TPR": 0.4346697552856577
+      }
+    },
+    "ncut_seed_fixed_k": {
+      "mean": {
+        "I-AUROC": 0.8828498620320158,
+        "I-AP": 0.6295617287533547,
+        "I-F1": 0.6574372265184697,
+        "FPR@95TPR": 0.37946580323576484
+      }
+    },
+    "ncut_seed_mix_0p5": {
+      "mean": {
+        "I-AUROC": 0.8855578404547944,
+        "I-AP": 0.6506115299228721,
+        "I-F1": 0.6491964207662735,
+        "FPR@95TPR": 0.35746512451907086
+      }
+    },
+    "ncut_center_fixed_k": {
+      "mean": {
+        "I-AUROC": 0.8539657504921566,
+        "I-AP": 0.6132663431360774,
+        "I-F1": 0.6292234669280952,
+        "FPR@95TPR": 0.5855092415897031
+      }
+    },
+    "ncut_center_mix_0p5": {
+      "mean": {
+        "I-AUROC": 0.8691789495651927,
+        "I-AP": 0.6387772159355827,
+        "I-F1": 0.6232573891828542,
+        "FPR@95TPR": 0.44625568064804233
+      }
+    }
+  },
+  "main_variant": "ncut_seed_mix_0p5",
+  "diagnostic_variant": "ncut_center_mix_0p5",
+  "tau": 0.47686619662747487,
+  "max_A_score_error": 0.0,
+  "checkpoint_sha256": "03cc73ef4cf9f9c019b9740ed06ac2cb578624886e62506e9a5c76820aae2941",
+  "inference_seconds": 229.74839176610112,
+  "delta_vs_A_percentage_points": 3.2277034998075216,
+  "limitations": [
+    "TokenCut-style adaptation, not original TokenCut reproduction.",
+    "Same exploratory test split; no test-driven parameter selection.",
+    "Foreground candidates are not semantic ground truth."
+  ]
+}

@@ -1,0 +1,7 @@
+2026-11-12 10:07:57,291 using MLP layer as FFN
+2026-11-12 10:09:09,381 glass-insulator complete; total=671 elapsed 69.8s
+2026-11-12 10:09:27,031 lightning-rod-suspension complete; total=838 elapsed 87.4s
+2026-11-12 10:09:57,031 polymer-insulator-upper-shackle complete; total=1175 elapsed 117.4s
+2026-11-12 10:10:17,445 vari-grip complete; total=1400 elapsed 137.8s
+2026-11-12 10:12:14,300 yoke-suspension complete; total=2656 elapsed 254.7s
+2026-11-12 10:12:14,618 完成：/root/autodl-tmp/experiments/insplad_three_methods_reproduction/ncut/eval_20261112_100754_19488

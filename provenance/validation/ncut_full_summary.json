@@ -1,0 +1,66 @@
+{
+  "smoke": false,
+  "test_image_count": 2656,
+  "checkpoint_step": 5000,
+  "ncut_training_steps": 0,
+  "variants": {
+    "full_top1": {
+      "mean": {
+        "I-AUROC": 0.8532808054567191,
+        "I-AP": 0.6020829654594024,
+        "I-F1": 0.6075025628310472,
+        "FPR@95TPR": 0.4346697552856577
+      }
+    },
+    "ncut_seed_fixed_k": {
+      "mean": {
+        "I-AUROC": 0.8828498620320158,
+        "I-AP": 0.6295617287533547,
+        "I-F1": 0.6574372265184697,
+        "FPR@95TPR": 0.37946580323576484
+      }
+    },
+    "ncut_seed_mix_0p5": {
+      "mean": {
+        "I-AUROC": 0.8855578404547944,
+        "I-AP": 0.6506115299228721,
+        "I-F1": 0.6491964207662735,
+        "FPR@95TPR": 0.35746512451907086
+      }
+    }
+  },
+  "max_recorded_score_error": 0.0,
+  "tau": 0.47686619662747487,
+  "input_view": {
+    "mode": "whole_file_resize_square",
+    "resize": [
+      392,
+      392
+    ],
+    "crop": null,
+    "padding": null,
+    "retained_field_of_view_fraction": 1.0,
+    "aspect_ratio_preserved": false,
+    "tensor_before_normalize": true,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "dataset": {
+    "train_images": 9006,
+    "test_normal": 2254,
+    "test_anomalous": 402,
+    "test_images": 2656,
+    "identity": "relative path, label and size; reference images also content-hashed"
+  },
+  "checkpoint_sha256": "03cc73ef4cf9f9c019b9740ed06ac2cb578624886e62506e9a5c76820aae2941",
+  "note": "Smoke uses different batch composition; small floating-point differences are expected. Full reference comparison is reported, not used for tuning.",
+  "reference_comparison_scope": "Original recorded scores; differences are reported, never used for selection."
+}

@@ -1,0 +1,10 @@
+{
+  "unchanged_costfilter_runtime": {
+    "vendor/costfilter/Costfilter_Dinomaly/unet3d_att_dino_channel_test_48_min.py": "7f28630a4c0fe020b4b8499ad7c89e3d767bf230c52e4be0621bf200baca4146",
+    "vendor/costfilter/Costfilter_Dinomaly/loss.py": "69b5bdee1332901385747ceed0662028d1125d370a57a3b6e9e0c83be446f0e8",
+    "vendor/costfilter/Costfilter_Dinomaly/perlin_noise.py": "b6ab97c1fd81d0da2513f99bda6fdc65d96536d7abe4dab49f55bf73a7d64fc1",
+    "vendor/costfilter/experiments/insplad_fullview_dinomaly2_costfilter/insplad_data.py": "a5512b06d7065c914d714eaadbb8cde07745fc6886d8de58a8f079898f64b095",
+    "vendor/costfilter/experiments/insplad_fullview_dinomaly2_costfilter/model_adapter.py": "1218c414ce3dc8ce97a79ae29c5a4c641ce9a96ca67bbc3dc4e18b4d1f8e65f0"
+  },
+  "note": "Run.py has one explicitly documented evaluation-only path-equivalence adjustment; original runner preserved separately."
+}

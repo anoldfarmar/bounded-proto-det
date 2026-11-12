@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "frozen_backbone": true,
+  "filter_weights_updated": true,
+  "checkpoint_reload_max_error": 0.0,
+  "batch_size": 12,
+  "steps": 2,
+  "training_peak_VRAM_GiB": 3.2020506858825684,
+  "evaluation_batch_checks": {
+    "1": {
+      "segmentation": [
+        1,
+        2,
+        64,
+        64
+      ],
+      "classification": [
+        1,
+        5
+      ]
+    },
+    "32": {
+      "segmentation": [
+        32,
+        2,
+        64,
+        64
+      ],
+      "classification": [
+        32,
+        5
+      ]
+    }
+  },
+  "peak_VRAM_GiB": 3.6804423332214355,
+  "elapsed_seconds": 5.090141515247524
+}

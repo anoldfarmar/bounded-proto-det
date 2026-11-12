@@ -1,0 +1,8 @@
+{
+  "data_root": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection",
+  "encoder_weights": "/root/autodl-tmp/model/dinov2_vitb14_reg4/dinov2_vitb14_reg4_pretrain.pth",
+  "a5000_checkpoint": "/root/autodl-tmp/experiments/insplad_fullview_B/runs/train_seed1_20261102_104902_22370/results/checkpoints/step_005000.pt",
+  "costfilter_checkpoint": "/root/autodl-tmp/experiments/insplad_fullview_costfilter/runs/train_seed1_20261106_140759_10780/checkpoints/final.pt",
+  "dtd_images": "/root/autodl-tmp/data/dtd/dtd/images",
+  "output_root": "/root/autodl-tmp/experiments/insplad_three_methods_reproduction"
+}

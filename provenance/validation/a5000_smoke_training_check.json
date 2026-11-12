@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "steps": 2,
+  "encoder_frozen": true,
+  "bottleneck_updated": true,
+  "checkpoint_reloaded": true,
+  "matched_first_batch": true,
+  "peak_VRAM_GiB": 15.799457550048828,
+  "elapsed_seconds": 5.439098642207682
+}

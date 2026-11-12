@@ -1,0 +1,15 @@
+{
+  "validated_at": "2026-11-12T02:16:09.176023+00:00",
+  "full_test_images_per_method": 2656,
+  "ncut_score_max_error": 0.0,
+  "costfilter_all_score_max_error": 0.0,
+  "A_training_smoke_passed": true,
+  "costfilter_training_smoke_passed": true,
+  "standard_library_tests": 5,
+  "ncut_tests": 5,
+  "view_tests": 3,
+  "costfilter_protocol_tests": 8,
+  "full_5000_step_retraining_performed": false,
+  "temporary_smoke_weights_removed": true,
+  "temporary_smoke_weight_bytes_freed": 1658482530
+}

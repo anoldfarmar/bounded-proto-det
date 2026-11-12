@@ -1,0 +1,20 @@
+{
+  "reproduce_mvtec_b.py": "63e48fdba519cdd9f0f5d36a264edf92698ef6890f0b0502933e420d3c6ce4f8",
+  "run_mvtec_b.sh": "d2e0669044fed042848f66284a019c68932376214b0fdee64448887ef964708b",
+  "dinomaly_2D.py": "c8ba4e2c58230eb7391bdd1dfb7babb5ed1c758adae04f99176a92437c3957b7",
+  "dataset.py": "b6172135e8edf4d8c2d7f53d713c5ab8c93be04c2ec520dea6d1dbb607ce93c7",
+  "utils.py": "4f3257d49b0414c6986db95c894950d5268a819f3d4abf7ccede0418321070d2",
+  "models/vit_encoder.py": "1e86d68a6bdaec4aa769fffce5151ae058c2ca7f344205b782fc844707de8600",
+  "models/uad.py": "e77525ead68a3570b670ba8d71f36806e11316723e1105a0c1ef77e8c190006d",
+  "models/vision_transformer.py": "223422341779b6911cc9ff3a55a8fc200dcfe3dee39e35420d7e9455f4ff3f85",
+  "optimizers/StableAdamW.py": "498ac5afa5d3d485cf540a0655952b7fbe996e895a471497eda05ed0edf7f36e",
+  "dinov2/models/vision_transformer.py": "0abdd2762129a2d324371250918acfb023b7edba7458c8e8969c5f8ba58752b0",
+  "dinov2/layers/attention.py": "37e294920f60dd89a719f55c95174fb4ade05b5f7103880d844f4a0839bf541a",
+  "dinov2/layers/block.py": "2c2af5191f4a6590c7a50d0ad0c344f15c080eb02081d7c1938d67543363e07a",
+  "insplad_adapter.py": "5ba3480b840bd4a939c756a32328bb5e81423d3d76d68489d6e5aa55d0a4da01",
+  "run_insplad_b.sh": "0303c56f973e1fde44804efee9f4270721d0da5f362111c80a300e4d134a35d5",
+  "experiments/insplad5/A_baseline/README.md": "6767de3df625b7a43ecdb45a189e637023c4fdd6eb42a1cceb7dfc26f2d48b3d",
+  "experiments/insplad5/A_baseline/config.json": "9827bb194ac669ecd48f1054e0f7148e33c29938a976edc070b02900a62c73e0",
+  "experiments/insplad5/A_baseline/launch.py": "973ff5e36d3d26b819e431323da59a5b40ab2667d88a7ec5a62d8b9f22f5662a",
+  "experiments/insplad5/A_baseline/run.sh": "4ad9595a5bf3c204562391dc3ebf5ca48fadbfe7eb5714632c60f835cb6af21b"
+}

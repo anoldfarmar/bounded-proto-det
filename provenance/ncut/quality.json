@@ -1,0 +1,55 @@
+{
+  "glass-insulator": {
+    "seed": {
+      "none": 664,
+      "component_too_small": 7
+    },
+    "center": {
+      "none": 664,
+      "component_near_full": 2,
+      "component_too_small": 5
+    }
+  },
+  "lightning-rod-suspension": {
+    "seed": {
+      "none": 163,
+      "component_too_small": 4
+    },
+    "center": {
+      "none": 161,
+      "component_too_small": 6
+    }
+  },
+  "polymer-insulator-upper-shackle": {
+    "seed": {
+      "none": 336,
+      "component_too_small": 1
+    },
+    "center": {
+      "none": 331,
+      "component_too_small": 6
+    }
+  },
+  "vari-grip": {
+    "seed": {
+      "none": 224,
+      "component_too_small": 1
+    },
+    "center": {
+      "none": 223,
+      "component_too_small": 1,
+      "component_near_full": 1
+    }
+  },
+  "yoke-suspension": {
+    "seed": {
+      "none": 1253,
+      "component_too_small": 3
+    },
+    "center": {
+      "none": 1244,
+      "component_too_small": 11,
+      "component_near_full": 1
+    }
+  }
+}

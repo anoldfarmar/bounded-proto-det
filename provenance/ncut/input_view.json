@@ -1,0 +1,22 @@
+{
+  "mode": "whole_file_resize_square",
+  "resize": [
+    392,
+    392
+  ],
+  "crop": null,
+  "padding": null,
+  "retained_field_of_view_fraction": 1.0,
+  "aspect_ratio_preserved": false,
+  "tensor_before_normalize": true,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ]
+}

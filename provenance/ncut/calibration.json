@@ -1,0 +1,548 @@
+{
+  "key": "2a77708dcc0052d7aa7588b209d3ad5dde295ea2ce34a96b5516eb22eb32682a",
+  "key_data": {
+    "encoder": "73182a088cf94833c94b1666d1c99e02fe87e2007bff57b564fb6206e25dba71",
+    "view": {
+      "mode": "whole_file_resize_square",
+      "resize": [
+        392,
+        392
+      ],
+      "crop": null,
+      "padding": null,
+      "retained_field_of_view_fraction": 1.0,
+      "aspect_ratio_preserved": false,
+      "tensor_before_normalize": true,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    },
+    "refs": [
+      {
+        "id": "5719807592d3823e",
+        "category": "glass-insulator",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/glass-insulator/train/good/Fotos 30-11-2020_DJI_0422_cadeia_isolador_vidro_2679.jpg",
+        "relative_path": "glass-insulator/train/good/Fotos 30-11-2020_DJI_0422_cadeia_isolador_vidro_2679.jpg",
+        "image_sha256": "183e32427be863b0cdf22360a6eb4734e62e867ec1c0b8129fb94695ea592619"
+      },
+      {
+        "id": "596830b8ebaf82b8",
+        "category": "glass-insulator",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/glass-insulator/train/good/Fotos 04-12-2020_DJI_0844_cadeia_isolador_vidro_1125.jpg",
+        "relative_path": "glass-insulator/train/good/Fotos 04-12-2020_DJI_0844_cadeia_isolador_vidro_1125.jpg",
+        "image_sha256": "d93e5504d2a6aac99d2f7ad54ab633b22b137b7cad4667d79678297ddc7da9ff"
+      },
+      {
+        "id": "74d45b5b5b98de6c",
+        "category": "glass-insulator",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/glass-insulator/train/good/Fotos 30-11-2020_DJI_0590_cadeia_isolador_vidro_2648.jpg",
+        "relative_path": "glass-insulator/train/good/Fotos 30-11-2020_DJI_0590_cadeia_isolador_vidro_2648.jpg",
+        "image_sha256": "e2f3924b79364f2d695c86ef06df0d09f12bdf533e4724a914a31bd578aadd65"
+      },
+      {
+        "id": "4ab4b367daaab42a",
+        "category": "glass-insulator",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/glass-insulator/train/good/Fotos 25-11-2020_DJI_0425_cadeia_isolador_vidro_1751.jpg",
+        "relative_path": "glass-insulator/train/good/Fotos 25-11-2020_DJI_0425_cadeia_isolador_vidro_1751.jpg",
+        "image_sha256": "fc776a3fb692f04e70604b6e63e3717da6ff2753ccdb2c7a4d79e2606d1d960e"
+      },
+      {
+        "id": "25b8ae829ba148b7",
+        "category": "glass-insulator",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/glass-insulator/train/good/Fotos 26-11-2020_DJI_0451_cadeia_isolador_vidro_1970.jpg",
+        "relative_path": "glass-insulator/train/good/Fotos 26-11-2020_DJI_0451_cadeia_isolador_vidro_1970.jpg",
+        "image_sha256": "2adac71b74153712511634f8afe0def402cad309970934ed4409fa2db0526280"
+      },
+      {
+        "id": "737a18792404f43c",
+        "category": "glass-insulator",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/glass-insulator/train/good/Fotos 01-12-2020_DJI_0283_cadeia_isolador_vidro_175.jpg",
+        "relative_path": "glass-insulator/train/good/Fotos 01-12-2020_DJI_0283_cadeia_isolador_vidro_175.jpg",
+        "image_sha256": "6a1f4f511909cc1728dda87ceb956a1e66587e7b231a6f3e2ec17963cbc6f663"
+      },
+      {
+        "id": "74719cfeb0a213d1",
+        "category": "glass-insulator",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/glass-insulator/train/good/Fotos 30-11-2020_DJI_0146_cadeia_isolador_vidro_2925.jpg",
+        "relative_path": "glass-insulator/train/good/Fotos 30-11-2020_DJI_0146_cadeia_isolador_vidro_2925.jpg",
+        "image_sha256": "8281a043c5b7d88e682d06aeb8b503c3c5bd0b53cffc7f05f1f5f28971fbca7b"
+      },
+      {
+        "id": "3654d2f095a2019a",
+        "category": "glass-insulator",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/glass-insulator/train/good/Fotos 07-12-2020_DJI_0313_cadeia_isolador_vidro_1251.jpg",
+        "relative_path": "glass-insulator/train/good/Fotos 07-12-2020_DJI_0313_cadeia_isolador_vidro_1251.jpg",
+        "image_sha256": "6e87b4e28b3417e9c78fc41457a7f3d80f3e210e7ea1baf3893b7e9550717bc5"
+      },
+      {
+        "id": "d9604a559ea77080",
+        "category": "glass-insulator",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/glass-insulator/train/good/Fotos 08-12-2020_DJI_0428_cadeia_isolador_vidro_1449.jpg",
+        "relative_path": "glass-insulator/train/good/Fotos 08-12-2020_DJI_0428_cadeia_isolador_vidro_1449.jpg",
+        "image_sha256": "26f1d176d13b076f7c50d68f4f071eb3cae36d4c634557e4934854803d59b600"
+      },
+      {
+        "id": "02c3c2f94611004d",
+        "category": "glass-insulator",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/glass-insulator/train/good/Fotos 02-12-2020_DJI_0480_cadeia_isolador_vidro_373.jpg",
+        "relative_path": "glass-insulator/train/good/Fotos 02-12-2020_DJI_0480_cadeia_isolador_vidro_373.jpg",
+        "image_sha256": "fe87a27cc70120eaac90bdd0d6ed666048a338ec19a26032517cece76a73faee"
+      },
+      {
+        "id": "b976f01c23116f0a",
+        "category": "lightning-rod-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/lightning-rod-suspension/train/good/Fotos 16-12-2020_DJI_0136_suspensao_para_raio_250.jpg",
+        "relative_path": "lightning-rod-suspension/train/good/Fotos 16-12-2020_DJI_0136_suspensao_para_raio_250.jpg",
+        "image_sha256": "9781bb21e55a8f462c007f1b83a9c306fa55ef3b550b6b1d7bcd80324976c736"
+      },
+      {
+        "id": "361a7100c5daa870",
+        "category": "lightning-rod-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/lightning-rod-suspension/train/good/Fotos 14-12-2020_DJI_0208_suspensao_para_raio_198.jpg",
+        "relative_path": "lightning-rod-suspension/train/good/Fotos 14-12-2020_DJI_0208_suspensao_para_raio_198.jpg",
+        "image_sha256": "b302285e958104bfc85798d2839d401cbe79ab102b7de06c7a7021df38a75a7c"
+      },
+      {
+        "id": "d6b5146e52a2f8cf",
+        "category": "lightning-rod-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/lightning-rod-suspension/train/good/Fotos 23-11-2020_DJI_0199_suspensao_para_raio_598.jpg",
+        "relative_path": "lightning-rod-suspension/train/good/Fotos 23-11-2020_DJI_0199_suspensao_para_raio_598.jpg",
+        "image_sha256": "53ce0cea04a6b8490d43914090c7c5c07dea3e89a55cdac224337a95703430c6"
+      },
+      {
+        "id": "fb5d6e7d10f6f974",
+        "category": "lightning-rod-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/lightning-rod-suspension/train/good/Fotos 22-10-2020_DJI_0886_suspensao_para_raio_553.jpg",
+        "relative_path": "lightning-rod-suspension/train/good/Fotos 22-10-2020_DJI_0886_suspensao_para_raio_553.jpg",
+        "image_sha256": "7d9c1d64ea3a4d0b22e9be21009f99232f92a555970dee8b884b38b1856ad7c3"
+      },
+      {
+        "id": "127a5ca0982caa3c",
+        "category": "lightning-rod-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/lightning-rod-suspension/train/good/Fotos 17-11-2020_DJI_0298_suspensao_para_raio_258.jpg",
+        "relative_path": "lightning-rod-suspension/train/good/Fotos 17-11-2020_DJI_0298_suspensao_para_raio_258.jpg",
+        "image_sha256": "c2060d556e9f875d8e0f8de23720b0e05c2dabb612471035202c7f1aca4f8216"
+      },
+      {
+        "id": "4fdccaa69047af71",
+        "category": "lightning-rod-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/lightning-rod-suspension/train/good/Fotos 03-12-2020_DJI_0222_suspensao_para_raio_66.jpg",
+        "relative_path": "lightning-rod-suspension/train/good/Fotos 03-12-2020_DJI_0222_suspensao_para_raio_66.jpg",
+        "image_sha256": "7ef0d965890a0208d89037905622c9cf7644a6bd4fd047cc5cb43d8532ed971d"
+      },
+      {
+        "id": "dee289727ed309db",
+        "category": "lightning-rod-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/lightning-rod-suspension/train/good/Fotos 19-11-2020_DJI_0035_suspensao_para_raio_423.jpg",
+        "relative_path": "lightning-rod-suspension/train/good/Fotos 19-11-2020_DJI_0035_suspensao_para_raio_423.jpg",
+        "image_sha256": "1595127d2963e283cc268a283255eb7c65d9aae678ba79c2517dc4ea3ae92d7a"
+      },
+      {
+        "id": "b6f9a3ecc1ad42d6",
+        "category": "lightning-rod-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/lightning-rod-suspension/train/good/Fotos 02-12-2020_DJI_0172_suspensao_para_raio_46.jpg",
+        "relative_path": "lightning-rod-suspension/train/good/Fotos 02-12-2020_DJI_0172_suspensao_para_raio_46.jpg",
+        "image_sha256": "8106aeb976ce28af01750c85fb8e2c15971f35b8e4b06ed0b90125e66f8b56ca"
+      },
+      {
+        "id": "d313f1fd5a81c7d8",
+        "category": "lightning-rod-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/lightning-rod-suspension/train/good/Fotos 10-12-2020_DJI_0193_suspensao_para_raio_158.jpg",
+        "relative_path": "lightning-rod-suspension/train/good/Fotos 10-12-2020_DJI_0193_suspensao_para_raio_158.jpg",
+        "image_sha256": "2270d6bda7c613c3460d7514777d548d87d3f8647524b2fecb2ee33d35fa3328"
+      },
+      {
+        "id": "5269cb97db206ac0",
+        "category": "lightning-rod-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/lightning-rod-suspension/train/good/Fotos 14-12-2020_DJI_0458_suspensao_para_raio_194.jpg",
+        "relative_path": "lightning-rod-suspension/train/good/Fotos 14-12-2020_DJI_0458_suspensao_para_raio_194.jpg",
+        "image_sha256": "74e5540c28da309fcdeb360fbee3ac506e73bf76aa9bc650ffca85a96807310f"
+      },
+      {
+        "id": "3c10947fb1f7f8dd",
+        "category": "polymer-insulator-upper-shackle",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/polymer-insulator-upper-shackle/train/good/Fotos 20-11-2020_DJI_0038_manilha_isolador_superior_1326.jpg",
+        "relative_path": "polymer-insulator-upper-shackle/train/good/Fotos 20-11-2020_DJI_0038_manilha_isolador_superior_1326.jpg",
+        "image_sha256": "b3c47fa965c13f19c27e65c3e568f815e8fae8a74fc94e34703be37dcd52d0a7"
+      },
+      {
+        "id": "57c82d8d9c19cc2d",
+        "category": "polymer-insulator-upper-shackle",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/polymer-insulator-upper-shackle/train/good/Fotos 04-12-2020_DJI_0735_manilha_isolador_superior_443.jpg",
+        "relative_path": "polymer-insulator-upper-shackle/train/good/Fotos 04-12-2020_DJI_0735_manilha_isolador_superior_443.jpg",
+        "image_sha256": "34daa28ba1094d61ceb48d8494c7efe9b63a63abc574b61a26f08e3b96ea7b40"
+      },
+      {
+        "id": "51edba5d530c62aa",
+        "category": "polymer-insulator-upper-shackle",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/polymer-insulator-upper-shackle/train/good/Fotos 02-12-2020_DJI_0135_manilha_isolador_superior_221.jpg",
+        "relative_path": "polymer-insulator-upper-shackle/train/good/Fotos 02-12-2020_DJI_0135_manilha_isolador_superior_221.jpg",
+        "image_sha256": "76cae46a0c95e436715e4a3e1c1bc3e3482005391df47e60da2c125f91904132"
+      },
+      {
+        "id": "efcef7b2d337c3f6",
+        "category": "polymer-insulator-upper-shackle",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/polymer-insulator-upper-shackle/train/good/Fotos 02-12-2020_DJI_0353_manilha_isolador_superior_162.jpg",
+        "relative_path": "polymer-insulator-upper-shackle/train/good/Fotos 02-12-2020_DJI_0353_manilha_isolador_superior_162.jpg",
+        "image_sha256": "7be23f01c06ab260710ac557cd5b7eb51f5b372880f90bee2c4e0941a322b29f"
+      },
+      {
+        "id": "e36c0e2827fc7871",
+        "category": "polymer-insulator-upper-shackle",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/polymer-insulator-upper-shackle/train/good/Fotos 17-11-2020_DJI_0191_manilha_isolador_superior_1106.jpg",
+        "relative_path": "polymer-insulator-upper-shackle/train/good/Fotos 17-11-2020_DJI_0191_manilha_isolador_superior_1106.jpg",
+        "image_sha256": "08d153e79812c30f1694d2cdd7b6e8b11e3eb0f8b828422f5de6034b63de560b"
+      },
+      {
+        "id": "2544cc0d70a2f59b",
+        "category": "polymer-insulator-upper-shackle",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/polymer-insulator-upper-shackle/train/good/Fotos 23-11-2020_DJI_0012_manilha_isolador_superior_1456.jpg",
+        "relative_path": "polymer-insulator-upper-shackle/train/good/Fotos 23-11-2020_DJI_0012_manilha_isolador_superior_1456.jpg",
+        "image_sha256": "73281aa621355195fe8bf013ee8064f845cfcfe90e1ff320a623bdf4672cf7f1"
+      },
+      {
+        "id": "5a0c92eacc81f50e",
+        "category": "polymer-insulator-upper-shackle",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/polymer-insulator-upper-shackle/train/good/Fotos 03-12-2020_DJI_0087_manilha_isolador_superior_341.jpg",
+        "relative_path": "polymer-insulator-upper-shackle/train/good/Fotos 03-12-2020_DJI_0087_manilha_isolador_superior_341.jpg",
+        "image_sha256": "901d2c0abd55e146ae3a4a814e43dfe845285a387dd72bf9e56f982d9044d169"
+      },
+      {
+        "id": "a95bdf23d058dbb0",
+        "category": "polymer-insulator-upper-shackle",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/polymer-insulator-upper-shackle/train/good/Fotos 14-12-2020_DJI_0006_manilha_isolador_superior_998.jpg",
+        "relative_path": "polymer-insulator-upper-shackle/train/good/Fotos 14-12-2020_DJI_0006_manilha_isolador_superior_998.jpg",
+        "image_sha256": "e9218678af16d6198f3e6f2900131b54fbaa2df5a36b74033a2cec6457a8d2e6"
+      },
+      {
+        "id": "05d386aa0ebae454",
+        "category": "polymer-insulator-upper-shackle",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/polymer-insulator-upper-shackle/train/good/Fotos 20-10-2020_DJI_0103_manilha_isolador_superior_1260.jpg",
+        "relative_path": "polymer-insulator-upper-shackle/train/good/Fotos 20-10-2020_DJI_0103_manilha_isolador_superior_1260.jpg",
+        "image_sha256": "9f31e568e7bccfb6fbe4bde6a4f49530202a621315a9de0cb58fbf2387a6a144"
+      },
+      {
+        "id": "3a8f2226579f0762",
+        "category": "polymer-insulator-upper-shackle",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/polymer-insulator-upper-shackle/train/good/Fotos 01-12-2020_DJI_0444_manilha_isolador_superior_37.jpg",
+        "relative_path": "polymer-insulator-upper-shackle/train/good/Fotos 01-12-2020_DJI_0444_manilha_isolador_superior_37.jpg",
+        "image_sha256": "fc76d6f688c35f20b3887fc5a93e1fc5aba733089680c448992f2fa1efce9de8"
+      },
+      {
+        "id": "8ef721f020e79d51",
+        "category": "vari-grip",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/vari-grip/train/good/Fotos 20-11-2020_DJI_0170_vari_grip_685.jpg",
+        "relative_path": "vari-grip/train/good/Fotos 20-11-2020_DJI_0170_vari_grip_685.jpg",
+        "image_sha256": "fcc4b104cfa96a4633660348a0fbf0e9dd0ea011d2fc1614e9efcc9442875e7f"
+      },
+      {
+        "id": "55ba92ab5bbe7878",
+        "category": "vari-grip",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/vari-grip/train/good/Fotos 24-11-2020_DJI_0502_vari_grip_809.jpg",
+        "relative_path": "vari-grip/train/good/Fotos 24-11-2020_DJI_0502_vari_grip_809.jpg",
+        "image_sha256": "c18ba091fb8fd0e6cf0dde10f3d07978f8149c62b52c933b3e5cf002324db1d0"
+      },
+      {
+        "id": "e66f9c35533c673a",
+        "category": "vari-grip",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/vari-grip/train/good/Fotos 18-11-2020_DJI_0196_vari_grip_536.jpg",
+        "relative_path": "vari-grip/train/good/Fotos 18-11-2020_DJI_0196_vari_grip_536.jpg",
+        "image_sha256": "229c3c2b8d0c31e844c58b1b1d670963543139844c90db2c87e7f0265d847979"
+      },
+      {
+        "id": "e2c16eafd60d70cb",
+        "category": "vari-grip",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/vari-grip/train/good/Fotos 22-10-2020_DJI_0866_vari_grip_728.jpg",
+        "relative_path": "vari-grip/train/good/Fotos 22-10-2020_DJI_0866_vari_grip_728.jpg",
+        "image_sha256": "f6737aacdc951da2ee894a838911b32bd890d586c78dd87d1e3493f8d7ee584c"
+      },
+      {
+        "id": "169d90875099a290",
+        "category": "vari-grip",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/vari-grip/train/good/Fotos 09-12-2020_DJI_0018_vari_grip_270.jpg",
+        "relative_path": "vari-grip/train/good/Fotos 09-12-2020_DJI_0018_vari_grip_270.jpg",
+        "image_sha256": "edc2d3221dc07ad0de326530afa29077d393ba8c46097b3a9beda6b8690833b6"
+      },
+      {
+        "id": "d4cab5cb7249f1fa",
+        "category": "vari-grip",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/vari-grip/train/good/Fotos 19-11-2020_DJI_0060_vari_grip_583.jpg",
+        "relative_path": "vari-grip/train/good/Fotos 19-11-2020_DJI_0060_vari_grip_583.jpg",
+        "image_sha256": "383879258c548fad5aad5a96dc029744b122b2fa2f247ee39bd1ed7fa46308c3"
+      },
+      {
+        "id": "170a3d688a23658f",
+        "category": "vari-grip",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/vari-grip/train/good/Fotos 08-12-2020_DJI_0455_vari_grip_230.jpg",
+        "relative_path": "vari-grip/train/good/Fotos 08-12-2020_DJI_0455_vari_grip_230.jpg",
+        "image_sha256": "9c6a385c2d1eb2329ef00f69598cf8dbb048d72fcc29b2bd3327a54c136331d5"
+      },
+      {
+        "id": "2c7d278b5935dd39",
+        "category": "vari-grip",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/vari-grip/train/good/Fotos 26-11-2020_DJI_0289_vari_grip_902.jpg",
+        "relative_path": "vari-grip/train/good/Fotos 26-11-2020_DJI_0289_vari_grip_902.jpg",
+        "image_sha256": "c7159136f28a77041f39b5c04dd795f50c5fdb3a6204c9de4001f125caa17338"
+      },
+      {
+        "id": "0d7dda9576360fb4",
+        "category": "vari-grip",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/vari-grip/train/good/Fotos 03-12-2020_DJI_0561_vari_grip_99.jpg",
+        "relative_path": "vari-grip/train/good/Fotos 03-12-2020_DJI_0561_vari_grip_99.jpg",
+        "image_sha256": "7901ac0b3ef879fae4f7978e4d3eaf33cc66d0d9c7845b4075d14cba4aac1e59"
+      },
+      {
+        "id": "f3c8da4607b460d9",
+        "category": "vari-grip",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/vari-grip/train/good/Fotos 11-12-2020_DJI_0290_vari_grip_347.jpg",
+        "relative_path": "vari-grip/train/good/Fotos 11-12-2020_DJI_0290_vari_grip_347.jpg",
+        "image_sha256": "eb0d0ab63c6c37ac90714803c0cb837b6bf6140f998cb2ff0a325501a7a7af3f"
+      },
+      {
+        "id": "58e1fc62af6c5552",
+        "category": "yoke-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/yoke-suspension/train/good/Fotos 04-12-2020_DJI_0899_amarra_balancim_997.jpg",
+        "relative_path": "yoke-suspension/train/good/Fotos 04-12-2020_DJI_0899_amarra_balancim_997.jpg",
+        "image_sha256": "edb4f4569fa112409fb0b84a55d24e2c0bd394da78a3dedf5e6d68a0850a1454"
+      },
+      {
+        "id": "f81872e252e94bff",
+        "category": "yoke-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/yoke-suspension/train/good/Fotos 17-12-2020_DJI_0164_amarra_balancim_3484.jpg",
+        "relative_path": "yoke-suspension/train/good/Fotos 17-12-2020_DJI_0164_amarra_balancim_3484.jpg",
+        "image_sha256": "9fc41871eee257af47d696ff19ad05115c06325cf7854a537bcba11f688609a2"
+      },
+      {
+        "id": "ef91d8cf250030a8",
+        "category": "yoke-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/yoke-suspension/train/good/Fotos 20-11-2020_DJI_0087_amarra_balancim_4376.jpg",
+        "relative_path": "yoke-suspension/train/good/Fotos 20-11-2020_DJI_0087_amarra_balancim_4376.jpg",
+        "image_sha256": "6dce14c8dfd75c34707c1fdc7da7e31199a9aa86b499ac84cb74cc175f1a824f"
+      },
+      {
+        "id": "d82c9be17ae4131c",
+        "category": "yoke-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/yoke-suspension/train/good/Fotos 16-11-2020_DJI_0076_amarra_balancim_2866.jpg",
+        "relative_path": "yoke-suspension/train/good/Fotos 16-11-2020_DJI_0076_amarra_balancim_2866.jpg",
+        "image_sha256": "1d7f000da0a63ce6590c576772faf6086b2435212351432f49322265f4426d2f"
+      },
+      {
+        "id": "09ad96f065bddacc",
+        "category": "yoke-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/yoke-suspension/train/good/Fotos 11-12-2020_DJI_0286_amarra_balancim_2173.jpg",
+        "relative_path": "yoke-suspension/train/good/Fotos 11-12-2020_DJI_0286_amarra_balancim_2173.jpg",
+        "image_sha256": "938a401309c8b9eb73e291791ea419ca782093096452b62741acfd3509d97bf7"
+      },
+      {
+        "id": "03131bf0ac714171",
+        "category": "yoke-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/yoke-suspension/train/good/Fotos 16-12-2020_DJI_0050_amarra_balancim_3171.jpg",
+        "relative_path": "yoke-suspension/train/good/Fotos 16-12-2020_DJI_0050_amarra_balancim_3171.jpg",
+        "image_sha256": "884ef2705210892bf69b3a1e6ddf5a05203959b561ad02641f7aee1a9d16b66c"
+      },
+      {
+        "id": "973d1b3a0024815e",
+        "category": "yoke-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/yoke-suspension/train/good/Fotos 20-10-2020_DJI_0011_amarra_balancim_3911.jpg",
+        "relative_path": "yoke-suspension/train/good/Fotos 20-10-2020_DJI_0011_amarra_balancim_3911.jpg",
+        "image_sha256": "df9248b22455589594f0ab60351f2effce4a871873ba1bb62c2a2292f1f78fbb"
+      },
+      {
+        "id": "f532ea0b7f942cab",
+        "category": "yoke-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/yoke-suspension/train/good/Fotos 27-11-2020_DJI_0073_amarra_balancim_6232.jpg",
+        "relative_path": "yoke-suspension/train/good/Fotos 27-11-2020_DJI_0073_amarra_balancim_6232.jpg",
+        "image_sha256": "811e08107947e245175502c64fc447b668329d1de23972f6922c4a162067009d"
+      },
+      {
+        "id": "bda3b79878437063",
+        "category": "yoke-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/yoke-suspension/train/good/Fotos 26-11-2020_DJI_0390_amarra_balancim_5745.jpg",
+        "relative_path": "yoke-suspension/train/good/Fotos 26-11-2020_DJI_0390_amarra_balancim_5745.jpg",
+        "image_sha256": "f572567fabb1bc04a03663597fea99dc7422389b1c2194dbce59d2cd8226b2ec"
+      },
+      {
+        "id": "b09c7e959d910826",
+        "category": "yoke-suspension",
+        "split": "train",
+        "label": "0",
+        "path": "/root/autodl-tmp/data/insplad/unsupervised_anomaly_detection/yoke-suspension/train/good/Fotos 01-12-2020_DJI_0492_amarra_balancim_150.jpg",
+        "relative_path": "yoke-suspension/train/good/Fotos 01-12-2020_DJI_0492_amarra_balancim_150.jpg",
+        "image_sha256": "e802fbbd4791c6f0ec1be9bdd9420d5214b2a2cdae49ab2992ff7cbfbbf94b61"
+      }
+    ],
+    "ncut": {
+      "threshold_calibration": "pooled_normal_reference_offdiagonal_cosine_quantile",
+      "similarity_quantile": 0.75,
+      "epsilon": 1e-05,
+      "partition_threshold": "eigenvector_mean",
+      "main_selection": "max_abs_eigenvector_seed_component",
+      "diagnostic_selection": "relative_center_then_max_abs_seed_component",
+      "connectivity": 4,
+      "dilation": false,
+      "closing": false,
+      "min_area_fraction": 0.01,
+      "max_area_fraction": 0.99,
+      "center_border_fraction": 0.2,
+      "tie_tolerance": 1e-12,
+      "min_graph_density": 0.005,
+      "max_graph_density": 0.995,
+      "min_eigen_gap": 1e-08
+    },
+    "feature_layer": 9,
+    "batch_size": 32,
+    "torch": "2.9.0+cu128",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "sources": {
+      "view.py": "c9881467d473562c32a2ded73f03360cf18baf939dfd8b980cd5695d016e7cf0",
+      "ncut.py": "185b0c72234cb605fae715072a6f5579db730a15fa6fe053f146ead00405325d",
+      "run.py": "d1c7fe9950e2446d0e05f89f4917300ce3a9badf127418977c28d5ded7b61d3e"
+    },
+    "core": {
+      "reproduce_mvtec_b.py": "63e48fdba519cdd9f0f5d36a264edf92698ef6890f0b0502933e420d3c6ce4f8",
+      "dinomaly_2D.py": "c8ba4e2c58230eb7391bdd1dfb7babb5ed1c758adae04f99176a92437c3957b7",
+      "dataset.py": "b6172135e8edf4d8c2d7f53d713c5ab8c93be04c2ec520dea6d1dbb607ce93c7",
+      "utils.py": "4f3257d49b0414c6986db95c894950d5268a819f3d4abf7ccede0418321070d2",
+      "models/vit_encoder.py": "1e86d68a6bdaec4aa769fffce5151ae058c2ca7f344205b782fc844707de8600",
+      "models/uad.py": "e77525ead68a3570b670ba8d71f36806e11316723e1105a0c1ef77e8c190006d",
+      "models/vision_transformer.py": "223422341779b6911cc9ff3a55a8fc200dcfe3dee39e35420d7e9455f4ff3f85",
+      "optimizers/StableAdamW.py": "498ac5afa5d3d485cf540a0655952b7fbe996e895a471497eda05ed0edf7f36e",
+      "dinov2/models/vision_transformer.py": "0abdd2762129a2d324371250918acfb023b7edba7458c8e8969c5f8ba58752b0",
+      "dinov2/layers/attention.py": "37e294920f60dd89a719f55c95174fb4ade05b5f7103880d844f4a0839bf541a",
+      "dinov2/layers/block.py": "2c2af5191f4a6590c7a50d0ad0c344f15c080eb02081d7c1938d67543363e07a",
+      "insplad_adapter.py": "5ba3480b840bd4a939c756a32328bb5e81423d3d76d68489d6e5aa55d0a4da01"
+    }
+  },
+  "threshold": 0.47686619662747487,
+  "reference_count": 50,
+  "reference_split": "train/good",
+  "test_used_for_calibration": false,
+  "input_view": {
+    "mode": "whole_file_resize_square",
+    "resize": [
+      392,
+      392
+    ],
+    "crop": null,
+    "padding": null,
+    "retained_field_of_view_fraction": 1.0,
+    "aspect_ratio_preserved": false,
+    "tensor_before_normalize": true,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  }
+}

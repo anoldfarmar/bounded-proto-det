@@ -1,0 +1,30 @@
+{
+  "dataset": "InsPLAD",
+  "subset": "fault5",
+  "experiment_id": "insplad_fullview_B_A5000",
+  "step": 5000,
+  "smoke": false,
+  "units": "fraction_0_to_1",
+  "mean": {
+    "I-AUROC": 0.8532808054567191,
+    "I-AP": 0.6020829654594024,
+    "I-F1": 0.6075025628310472
+  },
+  "macro_category_count": 5,
+  "excluded_from_macro": [],
+  "mixed_all_categories": {
+    "I-AUROC": 0.8872871666512159,
+    "I-AP": 0.5676950537889685,
+    "I-F1": 0.5730211322543042
+  },
+  "test_image_count": 2656,
+  "pixel_metrics": null,
+  "categories": [
+    "glass-insulator",
+    "lightning-rod-suspension",
+    "polymer-insulator-upper-shackle",
+    "vari-grip",
+    "yoke-suspension"
+  ],
+  "protocol": "train 5 normal categories jointly; macro over 5 categories with both labels; mixed pools all 5"
+}

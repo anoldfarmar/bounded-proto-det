@@ -1,0 +1,9 @@
+{
+  "test_images": 2656,
+  "max_all_score_error": 0.0,
+  "variants": [
+    "A5000_full",
+    "costfilter_only",
+    "costfilter_fused_0p05"
+  ]
+}

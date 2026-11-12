@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+configs/paths.local.json
+reproductions/
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.zip
+*.tar
+*.tar.gz
+*.jpg
+*.jpeg
+*.png

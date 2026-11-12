@@ -1,0 +1,1 @@
+/root/autodl-tmp/experiments/insplad_fullview_B/runs/train_seed1_20261102_104902_22370/ncut/step_005000_20261102_115421_22370

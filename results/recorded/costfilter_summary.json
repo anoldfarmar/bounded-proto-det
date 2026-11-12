@@ -1,0 +1,176 @@
+{
+  "experiment_id": "insplad_fullview_dinomaly2_A5000_costfilter",
+  "smoke": false,
+  "filter_steps": 5000,
+  "test_image_count": 2656,
+  "categories": [
+    "glass-insulator",
+    "lightning-rod-suspension",
+    "polymer-insulator-upper-shackle",
+    "vari-grip",
+    "yoke-suspension"
+  ],
+  "variants": {
+    "A5000_full": {
+      "mean": {
+        "I-AUROC": 0.8532808054567191,
+        "I-AP": 0.6020829654594024,
+        "I-F1": 0.6075026070224456,
+        "FPR@95TPR": 0.4346697552856577
+      },
+      "per_class": {
+        "glass-insulator": {
+          "I-AUROC": 0.9077261426659018,
+          "I-AP": 0.6196322049043691,
+          "I-F1": 0.6549707602339181,
+          "FPR@95TPR": 0.32013769363166955
+        },
+        "lightning-rod-suspension": {
+          "I-AUROC": 0.8184615384615386,
+          "I-AP": 0.6774622043635058,
+          "I-F1": 0.6486486486486486,
+          "FPR@95TPR": 0.42735042735042733
+        },
+        "polymer-insulator-upper-shackle": {
+          "I-AUROC": 0.8745515227367543,
+          "I-AP": 0.73300958471475,
+          "I-F1": 0.7130434782608696,
+          "FPR@95TPR": 0.46808510638297873
+        },
+        "vari-grip": {
+          "I-AUROC": 0.8726884779516358,
+          "I-AP": 0.8512918575648964,
+          "I-F1": 0.8174603174603174,
+          "FPR@95TPR": 0.40350877192982454
+        },
+        "yoke-suspension": {
+          "I-AUROC": 0.7929763454677646,
+          "I-AP": 0.12901897574949123,
+          "I-F1": 0.20338983050847456,
+          "FPR@95TPR": 0.5542667771333886
+        }
+      }
+    },
+    "costfilter_only": {
+      "mean": {
+        "I-AUROC": 0.8512849656807022,
+        "I-AP": 0.6280364892886614,
+        "I-F1": 0.6306186968314175,
+        "FPR@95TPR": 0.5966224385373685
+      },
+      "per_class": {
+        "glass-insulator": {
+          "I-AUROC": 0.91285140562249,
+          "I-AP": 0.6245462505374749,
+          "I-F1": 0.6210045662100456,
+          "FPR@95TPR": 0.37005163511187605
+        },
+        "lightning-rod-suspension": {
+          "I-AUROC": 0.8434188034188035,
+          "I-AP": 0.7327050919879293,
+          "I-F1": 0.74,
+          "FPR@95TPR": 0.6752136752136753
+        },
+        "polymer-insulator-upper-shackle": {
+          "I-AUROC": 0.8401335002085941,
+          "I-AP": 0.7135772441189905,
+          "I-F1": 0.6616541353383459,
+          "FPR@95TPR": 0.5191489361702127
+        },
+        "vari-grip": {
+          "I-AUROC": 0.8457404773194247,
+          "I-AP": 0.8692318081173522,
+          "I-F1": 0.7826086956521738,
+          "FPR@95TPR": 0.7368421052631579
+        },
+        "yoke-suspension": {
+          "I-AUROC": 0.8142806418341985,
+          "I-AP": 0.2001220516815599,
+          "I-F1": 0.3478260869565218,
+          "FPR@95TPR": 0.6818558409279205
+        }
+      }
+    },
+    "costfilter_fused_0p05": {
+      "mean": {
+        "I-AUROC": 0.8639312584635712,
+        "I-AP": 0.6257319103956863,
+        "I-F1": 0.6195240456513593,
+        "FPR@95TPR": 0.43655902991065787
+      },
+      "per_class": {
+        "glass-insulator": {
+          "I-AUROC": 0.9177280550774526,
+          "I-AP": 0.6411884914413116,
+          "I-F1": 0.6507177033492823,
+          "FPR@95TPR": 0.3029259896729776
+        },
+        "lightning-rod-suspension": {
+          "I-AUROC": 0.8292307692307692,
+          "I-AP": 0.6814442476699003,
+          "I-F1": 0.6482758620689655,
+          "FPR@95TPR": 0.4358974358974359
+        },
+        "polymer-insulator-upper-shackle": {
+          "I-AUROC": 0.8788902795160617,
+          "I-AP": 0.7651508373528917,
+          "I-F1": 0.7255813953488373,
+          "FPR@95TPR": 0.4765957446808511
+        },
+        "vari-grip": {
+          "I-AUROC": 0.8883357041251778,
+          "I-AP": 0.884036179147289,
+          "I-F1": 0.823045267489712,
+          "FPR@95TPR": 0.41228070175438597
+        },
+        "yoke-suspension": {
+          "I-AUROC": 0.8054714843683952,
+          "I-AP": 0.15683979636703937,
+          "I-F1": 0.25,
+          "FPR@95TPR": 0.5550952775476388
+        }
+      }
+    }
+  },
+  "historical_same_checkpoint": {
+    "A5000_full": 0.8532808054567191,
+    "NCut_region": 0.8828498620320158,
+    "NCut_full_fusion": 0.8855578404547944
+  },
+  "input_view": {
+    "mode": "whole_file_resize_square",
+    "resize": [
+      392,
+      392
+    ],
+    "crop": null,
+    "padding": null,
+    "retained_field_of_view_fraction": 1.0,
+    "aspect_ratio_preserved": false,
+    "tensor_before_normalize": true,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "baseline_checkpoint_sha256": "03cc73ef4cf9f9c019b9740ed06ac2cb578624886e62506e9a5c76820aae2941",
+  "filter_checkpoint_sha256": "b7912bb140756bb3012dfb8af301898af246c94835be9ec8626bcd076025fab4",
+  "filter_coefficient": 0.05,
+  "max_A_reference_score_error": 0.0,
+  "evaluation_seconds": 46.49631762225181,
+  "pixel_metrics": null,
+  "pixel_metrics_reason": "No real pixel-level ground truth is loaded for this InsPLAD image-level experiment.",
+  "limitations": [
+    "Dinomaly2+CostFilter adaptation, not unmodified upstream CostFilter+Dinomaly reproduction.",
+    "Additional DTD texture data and synthetic pixel supervision.",
+    "5000 filter steps versus upstream 17 epochs; full-view and matched 256/top1% postprocessing.",
+    "Guidance uses the direct 28-to64 path in both train/test, fixing an upstream train/test discrepancy.",
+    "Same exploratory test split as prior NCut experiments; no held-out benchmark claim."
+  ]
+}

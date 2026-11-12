@@ -1,0 +1,32 @@
+{
+  "glass-insulator": {
+    "train_good": 2298,
+    "test_good": 581,
+    "test_bad": 90,
+    "category_auroc_defined": true
+  },
+  "lightning-rod-suspension": {
+    "train_good": 462,
+    "test_good": 117,
+    "test_bad": 50,
+    "category_auroc_defined": true
+  },
+  "polymer-insulator-upper-shackle": {
+    "train_good": 935,
+    "test_good": 235,
+    "test_bad": 102,
+    "category_auroc_defined": true
+  },
+  "vari-grip": {
+    "train_good": 477,
+    "test_good": 114,
+    "test_bad": 111,
+    "category_auroc_defined": true
+  },
+  "yoke-suspension": {
+    "train_good": 4834,
+    "test_good": 1207,
+    "test_bad": 49,
+    "category_auroc_defined": true
+  }
+}

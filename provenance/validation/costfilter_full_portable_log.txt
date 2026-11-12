@@ -1,0 +1,6 @@
+2026-11-12 10:12:39,253 Portable CostFilter output: /root/autodl-tmp/experiments/insplad_three_methods_reproduction/costfilter/evaluate_20261112_101238_20334
+2026-11-12 10:12:41,096 using MLP layer as FFN
+2026-11-12 10:12:56,788 评估 640/2656 张
+2026-11-12 10:13:31,139 A5000_full macro I-AUROC 0.853281
+2026-11-12 10:13:31,157 costfilter_only macro I-AUROC 0.851285
+2026-11-12 10:13:31,175 costfilter_fused_0p05 macro I-AUROC 0.863931

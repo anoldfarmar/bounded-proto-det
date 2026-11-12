@@ -1,0 +1,16 @@
+--- original_costfilter_runner.py
++++ vendor/costfilter/experiments/insplad_fullview_dinomaly2_costfilter/run.py
+@@ -355,8 +355,11 @@
+     baseline = load_baseline(cfg, device)
+     model = build_filter(cfg).to(device).eval()
+     state = torch.load(checkpoint, map_location=device, weights_only=True)
+-    if state['config'] != cfg or state['smoke'] != smoke:
+-        raise ValueError('Checkpoint config/smoke mismatch')
++    path_keys = {'results_root', 'dinomaly2_repo', 'baseline_run', 'baseline_checkpoint', 'weights', 'data_path', 'dtd_images'}
++    saved_protocol = {k:v for k,v in state['config'].items() if k not in path_keys}
++    current_protocol = {k:v for k,v in cfg.items() if k not in path_keys}
++    if saved_protocol != current_protocol or state['smoke'] != smoke:
++        raise ValueError('Checkpoint numeric protocol/smoke mismatch')
+     model.load_state_dict(state['model_state_dict'], strict=True)
+     _, utils, _ = baseline_modules(cfg)
+     kernel = utils.get_gaussian_kernel(cfg['gaussian_kernel'], cfg['gaussian_sigma']).to(device)

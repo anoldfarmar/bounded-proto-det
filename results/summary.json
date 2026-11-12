@@ -1,0 +1,102 @@
+{
+  "categories": [
+    "glass-insulator",
+    "lightning-rod-suspension",
+    "polymer-insulator-upper-shackle",
+    "vari-grip",
+    "yoke-suspension"
+  ],
+  "test_images": 2656,
+  "test_normal": 2254,
+  "test_anomalous": 402,
+  "averaging": "unweighted mean of five per-category metrics",
+  "methods": {
+    "A5000": {
+      "score_column": "score",
+      "per_class": {
+        "glass-insulator": {
+          "I-AUROC": 0.9077261426659017,
+          "FPR@95TPR": 0.32013769363166955
+        },
+        "lightning-rod-suspension": {
+          "I-AUROC": 0.8184615384615385,
+          "FPR@95TPR": 0.42735042735042733
+        },
+        "polymer-insulator-upper-shackle": {
+          "I-AUROC": 0.8745515227367543,
+          "FPR@95TPR": 0.46808510638297873
+        },
+        "vari-grip": {
+          "I-AUROC": 0.8726884779516358,
+          "FPR@95TPR": 0.40350877192982454
+        },
+        "yoke-suspension": {
+          "I-AUROC": 0.7929763454677645,
+          "FPR@95TPR": 0.5542667771333886
+        }
+      },
+      "mean": {
+        "I-AUROC": 0.8532808054567189,
+        "FPR@95TPR": 0.43466975528565777
+      }
+    },
+    "NCut_full_fusion": {
+      "score_column": "ncut_seed_mix_0p5",
+      "per_class": {
+        "glass-insulator": {
+          "I-AUROC": 0.9208452859055268,
+          "FPR@95TPR": 0.25817555938037867
+        },
+        "lightning-rod-suspension": {
+          "I-AUROC": 0.8875213675213676,
+          "FPR@95TPR": 0.2905982905982906
+        },
+        "polymer-insulator-upper-shackle": {
+          "I-AUROC": 0.9052565707133917,
+          "FPR@95TPR": 0.4085106382978723
+        },
+        "vari-grip": {
+          "I-AUROC": 0.8672356567093409,
+          "FPR@95TPR": 0.38596491228070173
+        },
+        "yoke-suspension": {
+          "I-AUROC": 0.8469303214243444,
+          "FPR@95TPR": 0.44407622203811103
+        }
+      },
+      "mean": {
+        "I-AUROC": 0.8855578404547942,
+        "FPR@95TPR": 0.35746512451907086
+      }
+    },
+    "CostFilter_full_fusion": {
+      "score_column": "costfilter_fused_0p05",
+      "per_class": {
+        "glass-insulator": {
+          "I-AUROC": 0.9177280550774527,
+          "FPR@95TPR": 0.3029259896729776
+        },
+        "lightning-rod-suspension": {
+          "I-AUROC": 0.8292307692307692,
+          "FPR@95TPR": 0.4358974358974359
+        },
+        "polymer-insulator-upper-shackle": {
+          "I-AUROC": 0.8788902795160617,
+          "FPR@95TPR": 0.4765957446808511
+        },
+        "vari-grip": {
+          "I-AUROC": 0.8883357041251778,
+          "FPR@95TPR": 0.41228070175438597
+        },
+        "yoke-suspension": {
+          "I-AUROC": 0.8054714843683952,
+          "FPR@95TPR": 0.5550952775476388
+        }
+      },
+      "mean": {
+        "I-AUROC": 0.8639312584635713,
+        "FPR@95TPR": 0.43655902991065787
+      }
+    }
+  }
+}

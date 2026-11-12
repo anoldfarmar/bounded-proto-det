@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "updated_at": "2026-11-06T14:34:33.375447+08:00",
+  "phase": "finished",
+  "filter_steps": 5000,
+  "smoke": false,
+  "summary": "/root/autodl-tmp/experiments/insplad_fullview_costfilter/runs/train_seed1_20261106_140759_10780/summary.json"
+}
